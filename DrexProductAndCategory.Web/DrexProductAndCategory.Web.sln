@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrexProductAndCategory.Web", "DrexProductAndCategory.Web.csproj", "{9C8CF851-4643-4631-82BA-67DBBE36DA75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrexProductAndCategory.Models", "..\DrexProductAndCategory.Models\DrexProductAndCategory.Models.csproj", "{CE6E1BCD-13E7-43B0-ADE0-8FC468B81DF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrexProductAndCategory.Contracts", "..\DrexProductAndCategory.Contracts\DrexProductAndCategory.Contracts.csproj", "{57C719D7-2AC4-4726-8734-F5E0590F11B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrexProductAndCategory.EntityFramework", "..\DrexProductAndCategory.EntityFramework\DrexProductAndCategory.EntityFramework.csproj", "{2A760B9B-F328-4812-9D63-A2F953E1DBC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrexProductAndCategory.MySql", "..\DrexProductAndCategory.MySql\DrexProductAndCategory.MySql.csproj", "{0FE532CF-A706-4E18-9454-8161040ABFA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrexProductAndCategory.Services", "..\DrexProductAndCategory.Services\DrexProductAndCategory.Services.csproj", "{ECC5574E-267F-4650-9D9C-C75758F3C6A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C8CF851-4643-4631-82BA-67DBBE36DA75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8CF851-4643-4631-82BA-67DBBE36DA75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8CF851-4643-4631-82BA-67DBBE36DA75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8CF851-4643-4631-82BA-67DBBE36DA75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE6E1BCD-13E7-43B0-ADE0-8FC468B81DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE6E1BCD-13E7-43B0-ADE0-8FC468B81DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE6E1BCD-13E7-43B0-ADE0-8FC468B81DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE6E1BCD-13E7-43B0-ADE0-8FC468B81DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57C719D7-2AC4-4726-8734-F5E0590F11B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C719D7-2AC4-4726-8734-F5E0590F11B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C719D7-2AC4-4726-8734-F5E0590F11B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C719D7-2AC4-4726-8734-F5E0590F11B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A760B9B-F328-4812-9D63-A2F953E1DBC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A760B9B-F328-4812-9D63-A2F953E1DBC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A760B9B-F328-4812-9D63-A2F953E1DBC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A760B9B-F328-4812-9D63-A2F953E1DBC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FE532CF-A706-4E18-9454-8161040ABFA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE532CF-A706-4E18-9454-8161040ABFA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE532CF-A706-4E18-9454-8161040ABFA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE532CF-A706-4E18-9454-8161040ABFA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC5574E-267F-4650-9D9C-C75758F3C6A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC5574E-267F-4650-9D9C-C75758F3C6A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC5574E-267F-4650-9D9C-C75758F3C6A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC5574E-267F-4650-9D9C-C75758F3C6A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3ECEBAA0-6AEE-4830-B519-C7A9E7F3B07C}
+	EndGlobalSection
+EndGlobal

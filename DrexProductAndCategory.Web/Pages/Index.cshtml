@@ -1,0 +1,23 @@
+﻿@page
+@model Index
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Categories</h1>
+@foreach (var category in Model.Categories)
+{
+    <h3>@category.Name</h3>
+    <p>Description: @category.Description</p>
+    <hr />
+}
+
+<h1>Products</h1>
+@foreach (var product in Model.Products)
+{
+    <h3>@product.Name</h3>
+    <p>Price: @product.Price.ToString("C2")</p> 
+    <p>Stock: @product.Stock</p>
+    <p>Category: @product.Category?.Name</p>
+    <hr />
+}
